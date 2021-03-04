@@ -1,1 +1,1 @@
-loc $(git ls-files | rg -v 'vision/data')
+tokei $(git ls-files | rg -v 'vision/data')
